@@ -1,0 +1,106 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+header{
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+main{
+  width: 80%; 
+}
+
+section p{
+  color: yellow;
+}
+
+section{
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#reactId{
+  background-color: blueviolet;
+}
+
+article{
+  border-left-width: 20px;
+  border-left-style: solid;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+article>p{
+  .gowun-dodum-regular {
+    font-family: "Gowun Dodum", serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: blue;
+
+  }
+}
+
+li i{
+  color: red;
+}
+
+ul{
+  background-color: aquamarine;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content : center;
+  align-items: center;
+}
+
+li{
+  width : 150px;
+  height: 40px;
+  padding: 5px;
+  background-color: bisque;
+  color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li :hover{
+  background-color: blue;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+a :hover{
+  color: white;
+}
+
+
+@media screen and (max-width: 768px){
+  ul{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+
+  li{
+    width: 80%;
+    margin: 2px;
+  }
+}
